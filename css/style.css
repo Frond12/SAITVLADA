@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+.wrapper {
+    width: 100%;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.head {
+    display: flex;
+    height: 75px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
+.pages {   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:black;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.fon{
+    background:url(img/Rectangle.png) no-repeat; /* Фоновый цвет и фоновый рисунок*/
+    color: black; /*Цвет текста на странице*/
+    background-size: cover;
+	background-attachment: fixed; /* Фон страницы фиксируется */
+    height: 100vh;
+    overflow: hidden;
+}
+
+.photo--img {
+    width: 450px;
+    height: 500px;  
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textH2 {
+    width: 350px;
+    margin: 30px 100px 30px 30px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.razrabotka {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 450px ;
+    
+}
+
+.exam {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.h {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.hh {
+    font-size: 16px;
+    color: cornflowerblue;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    min-height: 340px;
+}
+
+.prof {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 20px 50px;
+}
+
+
+.unity {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 20px 50px;
+}
+
+.frontend {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 20px 50px;
+}
+
+.galka {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    
+}
+.First{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;   
+}
+.h1 {
+    
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.study {
+    
+    font-size: 14px;
+}
+
+.about {
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__head {
+    background-color: white;
+    width: 100%;
+}
+.center{
+    display: flex;
+    height: 100%;
+    min-height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+.moduls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profmod {
+    display: flex;
+    flex-direction: row;
+    
+}
+.mod_zagolovok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.games {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.games-p{
+    padding-top: 20px;
+}
+
+.container_footer{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.logo-2{
+    display: flex;
+    justify-content: left;
+}
+.contact_information{
+    color: #fff;
+}
+.color-text{
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #010005;
+    height: 200px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-family: "montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.padding-footer{
+    padding-top: 5px;
+    
+}
+
+.scroll{
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#F6F6F8;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+ 
+.scroll_img {
+    width: 150px;
+    height: 100px;
+}
